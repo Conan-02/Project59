@@ -111,7 +111,7 @@ p {
 }
 
 .link:hover {
-    background: #F4F1E9;
+    text-decoration: underline;
 }
 
 img {
@@ -122,4 +122,21 @@ a {
 }
 html {
     scroll-behavior: smooth;
+}
+#contact {
+    height: 500px;
+}
+
+.soc a {
+    text-shadow: none;
+}
+
+.soc h3 {
+    display: inline;
+
+}
+
+#contact iframe {
+    width: 100%;
+    height: 50%
 }
